@@ -1,0 +1,113 @@
+2021-02-04 18:34:26,348, INFO, :test_e2e, getting all the card titles
+2021-02-04 18:34:26,669, INFO, :test_e2e, Entering the location as India
+2021-02-04 18:34:31,959, INFO, :test_e2e, Success alert text received which is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2021-02-04 18:54:00,246, INFO, :test_homePage, first name is Neeraj
+2021-02-04 18:54:00,762, INFO, :test_homePage, first name is Priya
+2021-02-04 18:54:00,762, INFO, :test_homePage, first name is Priya
+2021-02-04 18:54:06,653, INFO, :test_e2e, getting all the card titles
+2021-02-04 18:54:06,913, INFO, :test_e2e, Entering the location as India
+2021-02-04 18:54:12,275, INFO, :test_e2e, Success alert text received which is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2021-02-04 19:05:41,021, INFO, :test_homePage, first name is Neeraj
+2021-02-04 19:05:41,585, INFO, :test_homePage, first name is Priya
+2021-02-04 19:05:41,585, INFO, :test_homePage, first name is Priya
+2021-02-04 19:05:48,020, INFO, :test_e2e, getting all the card titles
+2021-02-04 19:05:48,314, INFO, :test_e2e, Entering the location as India
+2021-02-04 19:05:53,655, INFO, :test_e2e, Success alert text received which is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2021-02-04 19:11:39,401, INFO, :test_homePage, first name is Neeraj
+2021-02-04 19:11:39,967, INFO, :test_homePage, first name is Priya
+2021-02-04 19:11:39,967, INFO, :test_homePage, first name is Priya
+2021-02-04 19:11:48,227, INFO, :test_e2e, getting all the card titles
+2021-02-04 19:11:48,532, INFO, :test_e2e, Entering the location as India
+2021-02-04 19:11:53,870, INFO, :test_e2e, Success alert text received which is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2021-02-04 19:43:18,974, INFO, :test_homePage, first name is Neeraj
+2021-02-04 19:43:19,523, INFO, :test_homePage, first name is Priya
+2021-02-04 19:43:19,523, INFO, :test_homePage, first name is Priya
+2021-02-04 19:43:25,625, INFO, :test_e2e, getting all the card titles
+2021-02-04 19:43:25,951, INFO, :test_e2e, Entering the location as India
+2021-02-04 19:43:31,301, INFO, :test_e2e, Success alert text received which is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2021-02-07 20:03:00,733, INFO, :test_homePage, first name is Neeraj
+2021-02-07 20:03:03,798, INFO, :test_homePage, first name is Priya
+2021-02-07 20:03:03,798, INFO, :test_homePage, first name is Priya
+2021-02-07 20:04:10,822, INFO, :test_homePage, first name is Neeraj
+2021-02-07 20:04:14,047, INFO, :test_homePage, first name is Priya
+2021-02-07 20:04:14,047, INFO, :test_homePage, first name is Priya
+2021-02-07 20:05:31,957, INFO, :test_homePage, first name is Neeraj
+2021-02-07 20:05:35,000, INFO, :test_homePage, first name is Priya
+2021-02-07 20:05:35,000, INFO, :test_homePage, first name is Priya
+2021-02-07 20:09:00,944, INFO, :test_homePage, first name is Neeraj
+2021-02-07 20:09:04,143, INFO, :test_homePage, first name is Priya
+2021-02-07 20:09:04,143, INFO, :test_homePage, first name is Priya
+2021-02-07 21:00:53,929, INFO, :test_homePage, first name is FirstName
+2021-02-07 21:47:22,656, INFO, :test_homePage, first name is Rahul
+2021-02-07 21:49:41,006, INFO, :test_homePage, first name is Rahul
+2021-02-07 21:50:14,581, INFO, :test_homePage, first name is Rahul
+2021-02-07 21:51:09,753, INFO, :test_homePage, first name is Rahul
+2021-02-07 21:51:37,845, INFO, :test_homePage, first name is Rahul
+2021-02-07 21:52:11,771, INFO, :test_homePage, first name is Rahul
+2021-02-07 21:53:29,650, INFO, :test_homePage, first name is Rahul
+2021-02-08 01:15:38,224, INFO, :test_homePage, first name is Rahul
+2021-02-08 01:16:36,662, INFO, :test_homePage, first name is Rahul
+2021-02-08 01:16:46,869, INFO, :test_homePage, first name is Neeraj
+2021-02-08 01:16:46,869, INFO, :test_homePage, first name is Neeraj
+2021-02-08 01:16:50,060, INFO, :test_homePage, first name is Priya
+2021-02-08 01:16:50,060, INFO, :test_homePage, first name is Priya
+2021-02-08 01:16:50,060, INFO, :test_homePage, first name is Priya
+2021-02-08 01:17:02,884, INFO, :test_e2e, getting all the card titles
+2021-02-08 01:17:03,530, INFO, :test_e2e, Entering the location as India
+2021-02-08 01:17:09,253, INFO, :test_e2e, Success alert text received which is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2021-02-08 01:17:47,419, INFO, :test_homePage, first name is Rahul
+2021-02-08 01:17:56,281, INFO, :test_homePage, first name is Neeraj
+2021-02-08 01:17:56,281, INFO, :test_homePage, first name is Neeraj
+2021-02-08 01:17:59,542, INFO, :test_homePage, first name is Priya
+2021-02-08 01:17:59,542, INFO, :test_homePage, first name is Priya
+2021-02-08 01:17:59,542, INFO, :test_homePage, first name is Priya
+2021-02-08 01:18:12,987, INFO, :test_e2e, getting all the card titles
+2021-02-08 01:18:13,671, INFO, :test_e2e, Entering the location as India
+2021-02-08 01:18:19,423, INFO, :test_e2e, Success alert text received which is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2021-02-08 01:26:51,392, INFO, :test_homePage, first name is Rahul
+2021-02-08 01:27:00,753, INFO, :test_homePage, first name is Neeraj
+2021-02-08 01:27:00,753, INFO, :test_homePage, first name is Neeraj
+2021-02-08 01:27:03,770, INFO, :test_homePage, first name is Priya
+2021-02-08 01:27:03,770, INFO, :test_homePage, first name is Priya
+2021-02-08 01:27:03,770, INFO, :test_homePage, first name is Priya
+2021-02-08 01:27:17,384, INFO, :test_e2e, getting all the card titles
+2021-02-08 01:27:18,030, INFO, :test_e2e, Entering the location as India
+2021-02-08 01:27:23,769, INFO, :test_e2e, Success alert text received which is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2021-02-08 01:28:16,812, INFO, :test_homePage, first name is Rahul
+2021-02-08 01:28:27,148, INFO, :test_homePage, first name is Neeraj
+2021-02-08 01:28:27,148, INFO, :test_homePage, first name is Neeraj
+2021-02-08 01:28:30,271, INFO, :test_homePage, first name is Priya
+2021-02-08 01:28:30,271, INFO, :test_homePage, first name is Priya
+2021-02-08 01:28:30,271, INFO, :test_homePage, first name is Priya
+2021-02-08 01:28:44,788, INFO, :test_e2e, getting all the card titles
+2021-02-08 01:28:45,838, INFO, :test_e2e, Entering the location as India
+2021-02-08 01:28:51,711, INFO, :test_e2e, Success alert text received which is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2021-02-08 01:38:46,620, INFO, :test_homePage, first name is Rahul
+2021-02-08 01:39:01,049, INFO, :test_homePage, first name is Neeraj
+2021-02-08 01:39:01,049, INFO, :test_homePage, first name is Neeraj
+2021-02-08 01:39:02,951, INFO, :test_homePage, first name is Priya
+2021-02-08 01:39:02,951, INFO, :test_homePage, first name is Priya
+2021-02-08 01:39:02,951, INFO, :test_homePage, first name is Priya
+2021-02-08 01:39:20,291, INFO, :test_e2e, getting all the card titles
+2021-02-08 01:39:21,235, INFO, :test_e2e, Entering the location as India
+2021-02-08 01:39:27,269, INFO, :test_e2e, Success alert text received which is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2021-02-08 01:57:32,961, INFO, :test_homePage, first name is Rahul
+2021-02-08 01:57:42,560, INFO, :test_homePage, first name is Neeraj
+2021-02-08 01:57:42,560, INFO, :test_homePage, first name is Neeraj
+2021-02-08 01:57:45,733, INFO, :test_homePage, first name is Priya
+2021-02-08 01:57:45,733, INFO, :test_homePage, first name is Priya
+2021-02-08 01:57:45,733, INFO, :test_homePage, first name is Priya
+2021-02-08 01:57:59,758, INFO, :test_e2e, getting all the card titles
+2021-02-08 01:58:00,885, INFO, :test_e2e, Entering the location as India
+2021-02-08 01:58:07,791, INFO, :test_e2e, Success alert text received which is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).

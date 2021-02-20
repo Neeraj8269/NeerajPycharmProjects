@@ -1,0 +1,7 @@
+2021-02-04 18:24:27,093, INFO, :test_e2e, logging information
+2021-02-04 18:24:27,093, ERROR, :test_e2e, Got an issue
+2021-02-04 18:24:27,093, CRITICAL, :test_e2e, critical issue
+2021-02-04 18:30:08,466, INFO, :test_e2e, getting all the card titles
+2021-02-04 18:30:08,775, INFO, :test_e2e, Entering the location as India
+2021-02-04 18:30:14,073, INFO, :test_e2e, Success alert text received which is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
