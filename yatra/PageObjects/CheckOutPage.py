@@ -15,6 +15,12 @@ class CheckOutPage:
     ScrolldownHtml = (By.TAG_NAME, "html")
     proceedToPayment = (By.XPATH, "//button[contains(text(),'Proceed To Payment')]")
     riskMyTravelButton = (By.CSS_SELECTOR, "input[value='Risk My Travel']")
+    hotel_input_email = (By.ID, "additionalContactEmail")
+    hotel_input_mobile = (By.ID, "additionalContactMobile")
+    hotel_select_dropdown = (By.NAME, "title0")
+    hotel_input_firstname = (By.NAME, "fname0")
+    hotel_input_lastname = (By.NAME, "lname0")
+    hotel_proceed_to_payment_button = (By.CSS_SELECTOR, "div[class*='sticky-sm-bottom'] button:nth-child(1)")
 
     def getEnter_Emailid(self):
         return self.driver.find_element(*CheckOutPage.enter_Email)
@@ -41,4 +47,26 @@ class CheckOutPage:
         self.driver.find_element(*CheckOutPage.riskMyTravelButton).click()
         paymentGateway = PaymentGateway(self.driver)
         return paymentGateway
+
+    def get_hotel_input_email(self):
+        return self.driver.find_element(*CheckOutPage.hotel_input_email)
+
+    def get_hotel_input_mobile(self):
+        return self.driver.find_element(*CheckOutPage.hotel_input_mobile)
+
+    def get_hotel_select_dropdown(self):
+        return self.driver.find_element(*CheckOutPage.hotel_select_dropdown)
+
+    def get_hotel_input_firstname(self):
+        return self.driver.find_element(*CheckOutPage.hotel_input_firstname)
+
+    def get_hotel_input_lastname(self):
+        return self.driver.find_element(*CheckOutPage.hotel_input_lastname)
+
+    def get_proceed_to_payment_button(self):
+        self.driver.find_element(*CheckOutPage.hotel_proceed_to_payment_button).click()
+        paymentGateway = PaymentGateway(self.driver)
+        return paymentGateway
+
+
 
