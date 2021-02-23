@@ -73,4 +73,6 @@ class Test_Hotel_Booking(BaseClass):
         paymentGateway.getAmazonPayment().click()
         paymentGateway.getAmazonPayment().click()
 
+        # Neeraj Name
+
 
