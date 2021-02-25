@@ -288,3 +288,11 @@ Success! Thank you! Your order will be delivered in next few weeks :-).
 2019-11-12 08:30:06,604 :INFO : test_formSubmission :first name is Rahul
 2019-11-12 08:30:30,638 :INFO : test_formSubmission :first name is Rahul
 2021-02-07 21:44:42,657 :INFO : test_formSubmission :first name is Rahul
+2021-02-24 19:10:34,800 :INFO : test_e2e :getting all the card titles
+2021-02-24 19:10:34,834 :INFO : test_e2e :iphone X
+2021-02-24 19:10:34,847 :INFO : test_e2e :Samsung Note 8
+2021-02-24 19:10:34,859 :INFO : test_e2e :Nokia Edge
+2021-02-24 19:10:34,870 :INFO : test_e2e :Blackberry
+2021-02-24 19:10:35,048 :INFO : test_e2e :Entering country name as ind
+2021-02-24 19:10:40,956 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).

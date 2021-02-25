@@ -1,5 +1,4 @@
 from selenium.webdriver.common.by import By
-
 from PageObjects.CheckOutPage import CheckOutPage
 
 
@@ -17,3 +16,4 @@ class FlightFarePage:
         self.driver.find_element(*FlightFarePage.BookNow_Button).click()
         checkOutPage = CheckOutPage(self.driver)
         return checkOutPage
+

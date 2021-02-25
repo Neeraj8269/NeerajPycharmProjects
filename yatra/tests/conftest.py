@@ -22,7 +22,7 @@ def setup(request):
     elif browser_name == "IE":
         driver = webdriver.Ie()
 
-    driver.get('https://www.yatra.com/')
+    driver.get('https://rahulshettyacademy.com/#/index')
     driver.maximize_window()
     request.cls.driver = driver
     yield

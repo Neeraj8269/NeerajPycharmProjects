@@ -1,10 +1,7 @@
 import time
 
-from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.select import Select
-
-from PageObjects.HomePage import HomePage
 from PageObjects.HotelHomePage import HotelHomePage
 from utilities.BaseClass import BaseClass
 from PageObjects.CheckOutPage import CheckOutPage
@@ -51,7 +48,6 @@ class Test_Hotel_Booking(BaseClass):
         self.driver.switch_to.window(ChildWindow)
         time.sleep(2)
         hotel_list_page.get_view_more_button().click()
-
         room_types = hotel_list_page.get_room_types()
         for book in room_types:
             book_facility = book.find_element_by_xpath("div/div[1]/span[1]").text
@@ -63,8 +59,10 @@ class Test_Hotel_Booking(BaseClass):
         check_out_page = CheckOutPage(self.driver)
         check_out_page.get_hotel_input_email().send_keys("neeraj871@gmail.com")
         check_out_page.get_hotel_input_mobile().send_keys("9870466369")
+
         handlel_dropdown = Select(check_out_page.get_hotel_select_dropdown())
         handlel_dropdown.select_by_value("Mr")
+
         check_out_page.get_hotel_input_firstname().send_keys("Neeraj Kumar")
         check_out_page.get_hotel_input_lastname().send_keys("Singh")
         time.sleep(5)

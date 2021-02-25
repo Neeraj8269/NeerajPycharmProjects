@@ -14,7 +14,7 @@ class HomePage:
     searchButton = (By.ID, "BE_flight_flsearch_btn")
 
     def getFromLocation(self):
-        return self.driver.find_element(HomePage.fromLocation)
+        return self.driver.find_element(*HomePage.fromLocation)
 
     def getToLocation(self):
         return self.driver.find_element(*HomePage.toLocation)

@@ -1,4 +1,5 @@
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.select import Select
 
 from PageObjects.PaymentGateway import PaymentGateway
 
@@ -22,20 +23,20 @@ class CheckOutPage:
     hotel_input_lastname = (By.NAME, "lname0")
     hotel_proceed_to_payment_button = (By.CSS_SELECTOR, "div[class*='sticky-sm-bottom'] button:nth-child(1)")
 
-    def getEnter_Emailid(self):
-        return self.driver.find_element(*CheckOutPage.enter_Email)
+    def getEnter_Emailid(self, text):
+        return self.driver.find_element(*CheckOutPage.enter_Email).send_keys(text)
 
-    def get_Mobile_No(self):
-        return self.driver.find_element(*CheckOutPage.enter_MobileNo)
+    def get_Mobile_No(self, text):
+        return self.driver.find_element(*CheckOutPage.enter_MobileNo).send_keys(text)
 
     def getDropdownTitle(self):
         return self.driver.find_element(*CheckOutPage.selectDropdownTitle)
 
-    def getFirstName(self):
-        return self.driver.find_element(*CheckOutPage.FirstName)
+    def getFirstName(self, text):
+        return self.driver.find_element(*CheckOutPage.FirstName).send_keys(text)
 
-    def getLastName(self):
-        return self.driver.find_element(*CheckOutPage.LastName)
+    def getLastName(self, text):
+        return self.driver.find_element(*CheckOutPage.LastName).send_keys(text)
 
     def getScrollDownHtml(self):
         return self.driver.find_element(*CheckOutPage.ScrolldownHtml)
