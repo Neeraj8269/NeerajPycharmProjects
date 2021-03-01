@@ -14,6 +14,8 @@ hexColor = Color.from_string(color_value).hex
 print(hexColor)
 driver.close()
 
+# pytest --html=report.html
+
 
 
 

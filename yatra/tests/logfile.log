@@ -34,3 +34,17 @@
 2021-02-24 20:05:12,955, INFO, :test_e2e, Entering departure location
 2021-02-24 20:12:50,818, INFO, :test_e2e, Entering from location
 2021-02-24 20:12:55,977, INFO, :test_e2e, Entering departure location
+2021-03-01 19:51:47,181, INFO, :test_e2e, Entering from location
+2021-03-01 19:51:52,320, INFO, :test_e2e, Entering departure location
+2021-03-01 19:52:22,864, INFO, :test_hotel_booking, Location is entered
+2021-03-01 19:56:35,718, INFO, :test_e2e, Entering from location
+2021-03-01 19:56:40,794, INFO, :test_e2e, Entering departure location
+2021-03-01 19:57:40,688, INFO, :test_hotel_booking, Location is entered
+2021-03-01 20:14:26,728, INFO, :test_e2e, Entering from location
+2021-03-01 20:14:31,775, INFO, :test_e2e, Entering departure location
+2021-03-01 20:27:45,841, INFO, :test_e2e, Entering from location
+2021-03-01 20:27:50,987, INFO, :test_e2e, Entering departure location
+2021-03-01 20:28:54,399, INFO, :test_hotel_booking, Location is entered
+2021-03-01 20:32:38,984, INFO, :test_e2e, Entering from location
+2021-03-01 20:32:44,119, INFO, :test_e2e, Entering departure location
+2021-03-01 20:33:56,390, INFO, :test_hotel_booking, Location is entered

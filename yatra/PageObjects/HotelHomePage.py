@@ -12,9 +12,9 @@ class HotelHomePage:
     ClearText = (By.NAME, "BE_hotel_destination")
     inputDestination = (By.NAME, "BE_hotel_destination")
     checkInField = (By.ID, "BE_hotel_checkin_date")
-    checkInDate = (By.ID, "23/02/2021")
+    checkInDate = (By.ID, "14/03/2021")
     checkOutField = (By.ID, "BE_hotel_checkout_date")
-    checkOutDate = (By.ID, "26/02/2021")
+    checkOutDate = (By.ID, "17/03/2021")
     searchButton = (By.ID, "BE_hotel_htsearch_btn")
 
     def get_go_hotel_page(self):

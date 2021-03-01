@@ -10,7 +10,7 @@ class HomePage:
     fromLocation = (By.NAME, "flight_origin")
     toLocation = (By.NAME, "flight_destination")
     originDate = (By.ID, "BE_flight_origin_date")
-    selectDate = (By.ID, "27/02/2021")
+    selectDate = (By.ID, "15/03/2021")
     searchButton = (By.ID, "BE_flight_flsearch_btn")
 
     def getFromLocation(self):
