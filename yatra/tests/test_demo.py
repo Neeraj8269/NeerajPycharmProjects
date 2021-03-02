@@ -14,6 +14,9 @@ hexColor = Color.from_string(color_value).hex
 print(hexColor)
 driver.close()
 
+# Act = ActionChains(driver)
+        # Act.key_down(driver.find_element_by_name("bday"))
+        # Act.key_down(driver.find_element_by_name("bday"))
 # pytest --html=report.html
 
 
