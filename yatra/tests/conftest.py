@@ -55,20 +55,6 @@ def pytest_runtest_makereport(item):
 def _capture_screenshot(name):
     driver.get_screenshot_as_file(name)
 
-@pytest.fixture(scope="class")
-def setupps(request):
-    global driver
-    browser_name = request.config.getoption("browser_name")
-    if browser_name == "chrome":
-        driver = webdriver.Chrome()
 
-    elif browser_name == "firefox":
-        driver = webdriver.firefox()
-
-    elif browser_name == "IE":
-        driver = webdriver.IE
-
-    driver.get("")
-    driver
 
 
