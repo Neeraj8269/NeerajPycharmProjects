@@ -24,7 +24,6 @@ class HomePage:
     def getName(self):
         return self.driver.find_element(*HomePage.name)
 
-
     def getEmail(self):
         return self.driver.find_element(*HomePage.email)
 

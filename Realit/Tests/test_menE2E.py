@@ -25,7 +25,7 @@ print(len(productList))
 for names in productList:
     # productName = names.find_elements_by_xpath("div/p[1]")
     print(names.text)
-    if "THE TIRE BOO" in names.text:
+    if "BABY BUFFALO FULL GRAIN BACK ZIP BOOTS IN BROWN" == names.text:
         driver.find_element_by_xpath("//div[@class='image ng-lazyloaded']").click()
         break
 
@@ -39,19 +39,32 @@ driver.find_element_by_xpath("//span[contains(text(),'PROCEED TO CHECKOUT')]").c
 time.sleep(2)
 driver.find_element_by_xpath("//span[contains(text(),'DEBIT CARD')]").click()
 time.sleep(4)
-driver.find_element_by_name("name").send_keys("Testing Now")
-driver.switch_to.frame(driver.find_element_by_xpath("//*[@id='card-number-element']/div/iframe"))
-driver.find_element_by_name("cardnumber").send_keys("4242424242424242")
-# driver.switch_to.default.content()
-# driver.switch_to.frame(driver.find_element_by_xpath("//*[@id='card-expiry-element']/div/iframe"))
-driver.find_element_by_xpath("//*[@id='root']/form/span[2]/span/input").send_keys("0223")
-# driver.switch_to.default.content()
-driver.find_element_by_name("exp-date").send_keys(Keys.TAB)
-driver.switch_to.frame(driver.find_element_by_xpath("//*[@id='card-cvc-element']/div/iframe"))
-driver.find_element_by_name("cvc").send_keys("123")
-# driver.switch_to.default.content()
-driver.find_element_by_name("cvc").send_keys(Keys.TAB)
-driver.find_element_by_name("postal_code").send_keys("10001")
+name_element = "True"
+
+if name_element == "True":
+    driver.find_element_by_name("name").send_keys("Testing Now")
+    driver.switch_to.frame(driver.find_element_by_xpath("//*[@id='card-number-element']/div/iframe"))
+    driver.find_element_by_name("cardnumber").send_keys("4242424242424242")
+    driver.switch_to.default_content()
+    driver.switch_to.frame(driver.find_element_by_xpath("//*[@id='card-expiry-element']/div/iframe"))
+    driver.find_element_by_xpath("//*[@id='root']/form/span[2]/span/input").send_keys("0223")
+    driver.switch_to.default_content()
+    # driver.find_element_by_name("exp-date").send_keys(Keys.TAB)
+    driver.switch_to.frame(driver.find_element_by_xpath("//*[@id='card-cvc-element']/div/iframe"))
+    driver.find_element_by_name("cvc").send_keys("123")
+    driver.switch_to.default_content()
+    driver.find_element_by_name("postal_code").send_keys("10001")
+    driver.find_element_by_xpath("//div[contains(text(),'Proceed To Checkout')]").click()
+# driver.find_element_by_xpath("//div[contains(text(),' Schedule Savings from')]").click()
+elif driver.find_element_by_xpath("//div[contains(text(),'Proceed To Checkout')]").click():
+    pass
+
+time.sleep(4)
+driver.find_element_by_xpath("//div[contains(text(),' Schedule Savings from')]").click()
+
+
+
+
 
 
 

@@ -37,6 +37,8 @@ class TestDemo(TestData):
         pg.click(1340, 51)
         time.sleep(5)
         driver.refresh()
+        get_url = driver.current_url
+
 
 
 

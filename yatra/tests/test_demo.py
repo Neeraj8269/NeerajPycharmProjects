@@ -19,6 +19,9 @@ driver.close()
         # Act.key_down(driver.find_element_by_name("bday"))
 # pytest --html=report.html
 
+# payment_button = WebDriverWait(self.driver, 10)
+#         payment_button.until(expected_conditions.presence_of_element_located(
+#            (By.XPATH, "//button[contains(text(),'Proceed To Payment')]")))
 
 
 
